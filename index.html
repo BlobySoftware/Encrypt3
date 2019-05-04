@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Encrypt3</title>
+<meta name="MobileOptimized" content="yes">
+  <meta name="HandheldFriendly" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#F44336">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="./manifest.json">
+  <!-- Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.min.js"></script>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/default.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <button class="add-button">Add to home screen</button>
+  <section class="reveal" id="chars">
+    <section class="slides">
+      <section>
+        <h1>Welcome to</h1>
+        <h2>Encrypt<span>3</span></h2>
+        <p id="cc">First, Write the characters that you want in your Vigenere Table</p>
+        <div class="chars">
+          <create-table chars="💣, Example Char"></create-table>
+        </div>
+      </section>
+      <section>
+        <h1 class="title">Code your message</h1>
+      <code-msg keyu="" msj=""></code-msg>
+      </section>
+      <section>
+        <h1 class="title">Decode your message</h1>
+        <decode-msg keyu="" msj=""></decode-msg>
+      </section>
+    </section>
+    
+  </section>
+  <!-- Project -->
+  <script src="js/reveal.js"></script>
+  <script src="js/main.js"></script>
+  <script src="app.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+<script>
+document.body.style = "";
+document.body.addEventListener("scroll", ()=>{
+  
+  document.body.style.overflowX = "hidden";
+  document.documentElement.style.overflowX = "hidden";
+})
+
+document.body.style.height ="100%";
+
+  </script>
+    
+</body>
+</html>
