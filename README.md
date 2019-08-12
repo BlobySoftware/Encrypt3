@@ -17,4 +17,8 @@ In the first screen you could see and input with reactive screen of output, you 
 </div>
 
 ### Code and Decode
-Just write some key for your encryption, and write the message (Encrypt react when you type in real time) 
+Just write some key for your encryption, and write the message (Encrypt react when you type in real time). 
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/BlobySoftware/img/master/encryptSSF.jpg" width="400">
+</div>
