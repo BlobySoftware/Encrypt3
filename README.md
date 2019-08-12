@@ -22,3 +22,7 @@ Just write some key for your encryption, and write the message (Encrypt react wh
 <div align="center">
   <img src="https://raw.githubusercontent.com/BlobySoftware/img/master/encryptSSF.jpg" width="400">
 </div>
+
+## AUTHOR
+Alex Santos, BlobySoftware®
+Todos los derechos reservados 2019.
